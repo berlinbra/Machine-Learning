@@ -30,7 +30,6 @@ public class OLinkList<L>{
             before = before.next;   
      	}
      	L saved = iterator.value;
-          // assigning the next referance to the the element following the element we want to remove... the last element will be assigned to the head.
      	before.next = iterator.next; 
      	iterator.next = null; 
      	iterator.value = null; 
